@@ -26,6 +26,9 @@ class ForgotPasswordFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val email = args.email
         binding.etEmail.setText(email)
+        binding.continueButton.setOnClickListener {
+            proceedToUpdate()
+        }
         binding.tvLogin.setOnClickListener {
             backToLogin()
         }
@@ -33,6 +36,13 @@ class ForgotPasswordFragment : Fragment() {
 
     private fun backToLogin() {
         findNavController().popBackStack(R.id.loginFragment, false)
+    }
+
+    private fun proceedToUpdate() {
+//        val updateFragment = UpdateBottomSheetFragment()
+//        updateFragment.isCancelable = false
+//        updateFragment.show(childFragmentManager, "UpdateFragment")
+        LogoutFragment { backToLogin() }.show(childFragmentManager, "logoutFragment")
     }
 
 }

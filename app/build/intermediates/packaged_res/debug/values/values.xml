@@ -1,20 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="button_radius">12dp</dimen>
     <string name="app_name">RoadMap</string>
+    <string name="cancel_logout">Cancel logout</string>
+    <string name="confirm_new_password">Confirm password</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="email">Email</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="exclamation">!</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirm">Are you sure you want to Log out?</string>
+    <string name="logout_dismissed">Dismiss</string>
     <string name="password">Password</string>
     <string name="reset_instruction">Reset Your Password</string>
     <string name="submit_email">Submit</string>
+    <string name="submit_new_password">Submit</string>
     <style name="Base.Theme.RoadMap" parent="Theme.Material3.DayNight.NoActionBar">
         
         
     </style>
+    <style name="CustomDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/rounded_dialog_corner</item>
+    </style>
     <style name="Theme.RoadMap" parent="Base.Theme.RoadMap"/>
+    <style name="ThemeOverlay.RoadMap.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+    <style name="Widget.Theme.RoadMap.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
     <style name="inputLabel">
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
@@ -23,4 +50,8 @@
         <item name="android:paddingTop">12dp</item>
         <item name="android:paddingBottom">12dp</item>
     </style>
+    <declare-styleable name="FullscreenAttrs">
+        <attr format="color" name="fullscreenBackgroundColor"/>
+        <attr format="color" name="fullscreenTextColor"/>
+    </declare-styleable>
 </resources>

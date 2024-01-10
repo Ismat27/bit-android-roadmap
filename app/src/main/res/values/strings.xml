@@ -8,4 +8,14 @@
     <string name="password">Password</string>
     <string name="submit_email">Submit</string>
     <string name="reset_instruction">Reset Your Password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="submit_new_password">Submit</string>
+    <string name="confirm_new_password">Confirm password</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="logout_confirm">Are you sure you want to Log out?</string>
+    <string name="logout">Logout</string>
+    <string name="logout_dismissed">Dismiss</string>
+    <string name="cancel_logout">Cancel logout</string>
+    <string name="exclamation">!</string>
 </resources>
