@@ -2,6 +2,7 @@ package com.alat.roadmap;
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;
+import androidx.navigation.ActionOnlyNavDirections;
 import androidx.navigation.NavDirections;
 import java.lang.IllegalArgumentException;
 import java.lang.Object;
@@ -18,6 +19,11 @@ public class LoginFragmentDirections {
   public static ActionLoginFragmentToForgotPasswordFragment actionLoginFragmentToForgotPasswordFragment(
       @NonNull String email) {
     return new ActionLoginFragmentToForgotPasswordFragment(email);
+  }
+
+  @NonNull
+  public static NavDirections actionLoginFragmentToPostFragment() {
+    return new ActionOnlyNavDirections(R.id.action_loginFragment_to_postFragment);
   }
 
   public static class ActionLoginFragmentToForgotPasswordFragment implements NavDirections {

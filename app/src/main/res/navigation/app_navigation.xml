@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
             app:destination="@id/forgotPasswordFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_postFragment"
+            app:destination="@id/postFragment" />
     </fragment>
     <fragment
         android:id="@+id/forgotPasswordFragment"
@@ -24,5 +27,10 @@
             android:name="email"
             app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.alat.roadmap.PostFragment"
+        android:label="fragment_post_list"
+        tools:layout="@layout/fragment_post_list" />
 
 </navigation>
