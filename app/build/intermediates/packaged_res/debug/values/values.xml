@@ -8,7 +8,9 @@
     <color name="light_blue_A400">#FF00B0FF</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="button_radius">12dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
     <string name="app_name">RoadMap</string>
+    <string name="body">Body</string>
     <string name="cancel_logout">Cancel logout</string>
     <string name="confirm_new_password">Confirm password</string>
     <string name="dummy_button">Dummy Button</string>
@@ -23,9 +25,11 @@
     <string name="logout_confirm">Are you sure you want to Log out?</string>
     <string name="logout_dismissed">Dismiss</string>
     <string name="password">Password</string>
+    <string name="post_list">Post List</string>
     <string name="reset_instruction">Reset Your Password</string>
     <string name="submit_email">Submit</string>
     <string name="submit_new_password">Submit</string>
+    <string name="title">Title</string>
     <style name="Base.Theme.RoadMap" parent="Theme.Material3.DayNight.NoActionBar">
         
         
