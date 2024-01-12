@@ -18,4 +18,7 @@
     <string name="logout_dismissed">Dismiss</string>
     <string name="cancel_logout">Cancel logout</string>
     <string name="exclamation">!</string>
+    <string name="body">Body</string>
+    <string name="title">Title</string>
+    <string name="post_list">Post List</string>
 </resources>
