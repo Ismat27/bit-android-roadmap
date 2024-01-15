@@ -9,19 +9,22 @@
         android:id="@+id/loginFragment"
         android:name="com.alat.roadmap.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" >
+        tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
             app:destination="@id/forgotPasswordFragment" />
         <action
             android:id="@+id/action_loginFragment_to_postFragment"
             app:destination="@id/postFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_todoFragment"
+            app:destination="@id/todoFragment" />
     </fragment>
     <fragment
         android:id="@+id/forgotPasswordFragment"
         android:name="com.alat.roadmap.ForgotPasswordFragment"
         android:label="fragment_forgot_password"
-        tools:layout="@layout/fragment_forgot_password" >
+        tools:layout="@layout/fragment_forgot_password">
 
         <argument
             android:name="email"
@@ -31,6 +34,24 @@
         android:id="@+id/postFragment"
         android:name="com.alat.roadmap.PostFragment"
         android:label="fragment_post_list"
-        tools:layout="@layout/fragment_post_list" />
+        tools:layout="@layout/fragment_post_list" >
+        <action
+            android:id="@+id/action_postFragment_to_postDetailFragment"
+            app:destination="@id/postDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/todoFragment"
+        android:name="com.alat.roadmap.TodoFragment"
+        android:label="fragment_todo_list"
+        tools:layout="@layout/fragment_todo_list" />
+    <fragment
+        android:id="@+id/postDetailFragment"
+        android:name="com.alat.roadmap.PostDetailFragment"
+        android:label="PostDetailFragment"
+        tools:layout="@layout/fragment_post_detail" >
+        <argument
+            android:name="postId"
+            app:argType="integer" />
+    </fragment>
 
 </navigation>
