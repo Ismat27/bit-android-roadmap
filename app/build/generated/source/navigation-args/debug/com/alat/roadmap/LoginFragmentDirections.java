@@ -26,6 +26,11 @@ public class LoginFragmentDirections {
     return new ActionOnlyNavDirections(R.id.action_loginFragment_to_postFragment);
   }
 
+  @NonNull
+  public static NavDirections actionLoginFragmentToTodoFragment() {
+    return new ActionOnlyNavDirections(R.id.action_loginFragment_to_todoFragment);
+  }
+
   public static class ActionLoginFragmentToForgotPasswordFragment implements NavDirections {
     private final HashMap arguments = new HashMap();
 

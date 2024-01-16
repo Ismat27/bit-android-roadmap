@@ -21,4 +21,6 @@
     <string name="body">Body</string>
     <string name="title">Title</string>
     <string name="post_list">Post List</string>
+    <string name="todo_list">Todos</string>
+    <string name="go_back">Go back</string>
 </resources>

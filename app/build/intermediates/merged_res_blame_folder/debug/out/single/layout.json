@@ -1,19 +1,27 @@
 [
     {
-        "merged": "com.alat.roadmap.app-mergeDebugResources-48:/layout/fragment_post_list.xml",
-        "source": "com.alat.roadmap.app-main-51:/layout/fragment_post_list.xml"
-    },
-    {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-mergeDebugResources-48:\\layout\\fragment_login.xml",
         "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "com.alat.roadmap.app-mergeDebugResources-48:/layout/fragment_post_detail.xml",
+        "source": "com.alat.roadmap.app-main-51:/layout/fragment_post_detail.xml"
     },
     {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-mergeDebugResources-48:\\layout\\activity_main.xml",
         "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-mergeDebugResources-48:\\layout\\fragment_todo_list.xml",
+        "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\layout\\fragment_todo_list.xml"
+    },
+    {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-mergeDebugResources-48:\\layout\\fragment_forgot_password.xml",
         "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\layout\\fragment_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-mergeDebugResources-48:\\layout\\fragment_todo.xml",
+        "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\layout\\fragment_todo.xml"
     },
     {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-mergeDebugResources-48:\\layout\\fragment_post_list.xml",
@@ -26,6 +34,10 @@
     {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-mergeDebugResources-48:\\layout\\fragment_logout_dialog.xml",
         "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\layout\\fragment_logout_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-mergeDebugResources-48:\\layout\\fragment_post_detail.xml",
+        "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\layout\\fragment_post_detail.xml"
     },
     {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-mergeDebugResources-48:\\layout\\fragment_update.xml",

@@ -2508,6 +2508,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_arrow_back
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2631,11 +2632,13 @@ id action_divider
 id action_image
 id action_loginFragment_to_forgotPasswordFragment
 id action_loginFragment_to_postFragment
+id action_loginFragment_to_todoFragment
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_postFragment_to_postDetailFragment
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2878,6 +2881,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id navBack
 id nav_controller_view_tag
 id nav_host_fragment_activity_main
 id nav_host_fragment_container
@@ -2914,11 +2918,13 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id pbLoader
 id peekHeight
 id percent
 id pin
 id pooling_container_listener_holder_tag
 id position
+id postDetailFragment
 id postFragment
 id postItem
 id postLayout
@@ -3040,6 +3046,8 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id todoFragment
+id todoList
 id toggle
 id top
 id topPanel
@@ -3189,7 +3197,10 @@ layout fragment_forgot_password
 layout fragment_login
 layout fragment_logout_dialog
 layout fragment_post
+layout fragment_post_detail
 layout fragment_post_list
+layout fragment_todo
+layout fragment_todo_list
 layout fragment_update
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3326,6 +3337,7 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string forgot_password
+string go_back
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
@@ -3430,6 +3442,7 @@ string status_bar_notification_info_overflow
 string submit_email
 string submit_new_password
 string title
+string todo_list
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

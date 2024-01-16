@@ -4,16 +4,16 @@
         "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\drawable\\cancel_icon.xml"
     },
     {
-        "merged": "com.alat.roadmap.app-merged_res-49:/layout_fragment_post_list.xml.flat",
-        "source": "com.alat.roadmap.app-main-51:/layout/fragment_post_list.xml"
-    },
-    {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-merged_res-49:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-merged_res-49:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-merged_res-49:\\layout_fragment_todo_list.xml.flat",
+        "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\layout\\fragment_todo_list.xml"
     },
     {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-merged_res-49:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -48,12 +48,24 @@
         "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.alat.roadmap.app-merged_res-49:/layout_fragment_post_detail.xml.flat",
+        "source": "com.alat.roadmap.app-main-51:/layout/fragment_post_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-merged_res-49:\\layout_fragment_login.xml.flat",
         "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\layout\\fragment_login.xml"
     },
     {
+        "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-merged_res-49:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\drawable\\ic_arrow_back.xml"
+    },
+    {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-merged_res-49:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-merged_res-49:\\layout_fragment_todo.xml.flat",
+        "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\layout\\fragment_todo.xml"
     },
     {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-merged_res-49:\\layout_fragment_post.xml.flat",
@@ -106,6 +118,10 @@
     {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-merged_res-49:\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-merged_res-49:\\layout_fragment_post_detail.xml.flat",
+        "source": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-main-51:\\layout\\fragment_post_detail.xml"
     },
     {
         "merged": "C:\\Users\\Support\\.gradle\\daemon\\8.0\\com.alat.roadmap.app-merged_res-49:\\layout_fragment_logout_dialog.xml.flat",
