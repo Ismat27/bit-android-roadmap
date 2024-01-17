@@ -25,24 +25,26 @@ class TodoViewModel(private val todoRepository: TodoRepository) : ViewModel() {
 
 
     private fun fetchTodos() = viewModelScope.launch {
+        _uiState.postValue(RequestStatus.Loading())
         _uiState.postValue(todoRepository.fetchTodosFromApi())
     }
 
     private fun fetchTodoItems() = viewModelScope.launch {
+        _uiState.postValue(RequestStatus.Loading())
         todoRepository.getTodosFromApi()
             .flowOn(Dispatchers.IO)
             .catch {
                 _uiState.postValue(RequestStatus.Error("Request failed"))
                 Log.e("fetchTodoItems", it.localizedMessage ?: "Request failed")
             }.collect {
-                val items = it?.map { item -> item }
-                _uiState.postValue(RequestStatus.Success(items ?: emptyList()))
+                val items = it.map { item -> item }
+                _uiState.postValue(RequestStatus.Success(items))
             }
     }
 
     init {
-//        fetchTodos()
-        fetchTodoItems()
+        fetchTodos()
+//        fetchTodoItems()
     }
 
     companion object {
