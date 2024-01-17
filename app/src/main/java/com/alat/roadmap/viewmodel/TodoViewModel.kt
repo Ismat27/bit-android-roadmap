@@ -5,9 +5,11 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.alat.roadmap.RoadMapApplication
 import com.alat.roadmap.network.Todo
 import com.alat.roadmap.repository.TodoRepository
 import com.alat.roadmap.utils.RequestStatus
@@ -46,8 +48,8 @@ class TodoViewModel(private val todoRepository: TodoRepository) : ViewModel() {
     companion object {
         val Factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
-                val repo = TodoRepository()
-                TodoViewModel(repo)
+                val application = (this[APPLICATION_KEY] as RoadMapApplication)
+                TodoViewModel(application.todoRepository)
             }
         }
 

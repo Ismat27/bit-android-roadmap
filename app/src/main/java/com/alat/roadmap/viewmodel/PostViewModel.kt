@@ -6,7 +6,9 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.alat.roadmap.RoadMapApplication
 import com.alat.roadmap.network.Post
+import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY
 import com.alat.roadmap.repository.PostRepository
 import com.alat.roadmap.utils.RequestStatus
 
@@ -32,8 +34,8 @@ class PostViewModel(private val postRepository: PostRepository) : ViewModel() {
     companion object {
         val Factory: ViewModelProvider.Factory = viewModelFactory {
             initializer {
-                val repo = PostRepository()
-                PostViewModel(repo)
+                val application = (this[APPLICATION_KEY] as RoadMapApplication)
+                PostViewModel(application.postRepository)
             }
         }
     }
